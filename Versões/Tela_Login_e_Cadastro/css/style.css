@@ -1,0 +1,99 @@
+/*CSS*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Fundo da tela*/
+.container{
+
+    width: 100w;
+    height: 100vh;
+    background-image: url('../fundo-cinza-claro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background: #d8d4d4;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/*Fundo da combo principal*/
+.form-box{
+    width: 450px;
+    
+    background: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /*linha abaixo deixou as bordas arrendadas*/
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border-top: 8px solid #3c3cd8;
+    border-bottom: 8px solid #3c3cd8;
+}
+
+/*Fundo da caixa de texto*/
+.form-box .form-input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background: #e7e7f3;
+    /*linha abaixo deixou as bordas arrendadas*/
+    border-radius: 50px;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 8px;
+}
+
+/*Botão cadastrar*/
+.form-box .form-input-botao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background:  #3c3cd8;
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    
+}
+
+
+/*Tela de LOGIN*/
+
+/*Não sei ainda*/
+.form-box .form-btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background:  #3c3cd8;
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+/*Não sei ainda*/
+@media screen and(max-width: 340px){
+    
+    .form-box{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+
+
